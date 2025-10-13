@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	var i int
-	fmt.Print("숫자를 입력 하시오: ")
+	fmt.Print("숫자를 입력 하세요: ")
 	_, err := fmt.Scan(&i)
 	if err != nil {
 		fmt.Println("숫자 입력 오류:", err)
